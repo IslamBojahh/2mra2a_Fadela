@@ -1,0 +1,115 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.woman.aya_orcas.tab.MainActivity$PlaceholderFragment">
+
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/section_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="الله يحبك، يقدرك وأعد لكِ خطة رائعة"
+                android:textSize="14pt"
+                android:textColor="@color/secondaryTextColor"
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="محبّة الله وتقديره لك تجليا منذ البدء، حيث «خلق الله الانسان على صورته، على صورة الله خلقه. ذكراً وانثى خلقهم، وباركهم الله وقال لهم أثمروا وأكثروا وأملأوا الأرض» (تكوين ١ : ٢٧-٢٨)."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+               />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="لم تتوقف محبة الله لكِ فيقول الكتاب المقدس: «لأنه هكذا أحب الله العالم حتى بذل أبنه الوحيد لكي لا يهلك كل من يؤمن به بل تكون له الحياة الابدية» (يوحنا ٣ : ١٦)."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+               />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="ولأنه يحبك أعد الله لحياتك حياة فضلى، فقد يسوع المسيح: «أتيت لتكون لهم حيـاة وليكون لهم أفضل [حياة ممتلئة وذات هدف]» (يوحنا ١٠ : ١٠)."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="لماذا لا يختبر معظم الناس محبة الله والحياة الفضلى؟ "
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+
+
+            <ImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/m1"
+                android:layout_gravity="center"
+
+                />
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

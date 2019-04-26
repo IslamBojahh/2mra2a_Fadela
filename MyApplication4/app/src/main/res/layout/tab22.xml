@@ -1,0 +1,115 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.woman.aya_orcas.tab.MainActivity$PlaceholderFragment">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/section_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="لأنّ الإنسان خاطئ ومنفصل عن الله،
+فلا يقدر أن يعرف ويختبر محبّة الله
+ولا الخطّة التي رسمها لحياته."
+                android:textSize="14pt"
+                android:textColor="@color/secondaryTextColor"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="بالنسبه للإنسان الخاطئ يقول الكتاب المقدس : « إذ الجميع أخطأوا وأعوزهم مجد الله »  "
+
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+               />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="خلق الإنسان لتكون له شركة مع الله لكن الإنسان إختار أن يسلك في طريقه المستقل بعيداً عن الله فانقطعت الشركة بينهما، هــذا الإنفصال عن الله هو ما يســميه الكتاب المقدس خطية. وتظهر عندما يتمرد الإنسان على الله ولا يهتم بوصاياه ولا يعيش في مستوى القداسة الذي يريده الله له."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+             />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="الإنسان منفصل عن الله: يقول الكتاب المقدس: « لأنّ أجرة الخطيّة هي موت [ إنفصال روحي عن الله ] » (رومية ٦ : ٢٣). االله قدّوس والإنسان خاطئ ، وتفصل بين الإثنين هوّة عظيمة. غير أّن الإنسان يحاول باستمرار الوصول إليه تعالى وإلى الحياة الفضلى بجهوده الشخصّية: كالأعمال الصالحة، والتديّن، والأخلاق الجيّدة والفلسفة وغير ذلك. ولكن كل محاولات الإنسان الذاتيّة تبوء بالفشل."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/m2"
+                android:layout_gravity="center"
+
+                />
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="خلق الانسان ليكون في شركة مع الله، لكن بسبب إرادته الذاتية العنيدة إختار السلوك في طريقه المستقل فانقطعت الشركة بينه وبين الله.
+هل يقدم لنا المبدأ الثالث الحلّ؟"
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
+

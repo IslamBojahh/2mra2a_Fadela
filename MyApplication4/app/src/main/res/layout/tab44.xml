@@ -1,0 +1,209 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true">
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/section_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+
+
+                android:text="يجب على كّل منّ أن يَقبَل يسوع
+مخلِّصاً وسيّداً له. عندئذ نعرف
+ونختبر محبّة الله وخطّته لحياتنا."
+                android:textSize="14pt"
+                android:textColor="@color/secondaryTextColor"
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="فكما إختارت مريم (أخت لعازر) النصيب الصالح (يسوع المسيح) الذي لن ينزع منها (لوقا ١٠ : ٤٣)، وكما آمنت المرأة النازفة دماً بأن خلاصها من المرض سيكون بالإيمان بيسوع المسيح (لوقا ٨ : ٤٣-٤٨)، هكذا نحن أيضاً يجب علينا أن نأتي إلى يسوع بالايمان فنخلص به من خطايانا. "
+
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+              />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+
+                android:text="لأن «ليس بأحد غيره الخلاص لأن ليس أسم آخر تحت السماء قد أعطي بن الناس به ينبغي أن نخلص» (أعمال ٤ : ١٢) لذا عليك أن تقبلي المســيح بدعوة شــخصية منك فقد قال الرب يسوع في رؤيا ٣ : ٢٠ «هانذا واقف عــلى الباب واقرع. إن سمع أحد صوتي وفتح الباب أدخل اليه»."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+
+                android:text="يتضمّن قبول المسيح التحوّل من الذات إلى الله (التوبة) ثقة منّا بأنّ المسيح يدخل حياتنا ويغفر خطايانا ويجعلنا كما يريد هو... ولا يكفي أن نقتنع عقليّاً بتصريحات المسيح أو نختبرها اختباراً عاطفيّاً فقط."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+
+
+                android:text="تمثل الدائرتان التاليتان نوعين من الحياة"
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                />
+
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="حياة تسيطر عليه الذات"
+                        android:textColor="@color/colorPrimary"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/m41"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="المسيح خارج القلب، الأنا ومحبة الذات على العرش"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="5dp"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="حياة تسيطر عليه المسيح"
+                        android:textColor="@color/colorPrimary"
+
+                        />
+
+                    <ImageView
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/m42"
+                        android:layout_gravity="center"
+
+                        />
+                    <TextView
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="حياة يمتلكها المسيح المسيح على عرش القلب الأنا الذات قد نزلت من على العرش"
+                        />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="إذا كنت تريدين أن يملك المسيح على عرش حياتك كما في الدائرة الثانية، صلِّ بثقة الصلاة المقترحة من كل القلب وسيدخل المسيح الى قلبك كما وعــد: (الصلاه هي محادثه مع الله) الله يعــرف قلبك ولا تهمّه اللغّــة التي تستعمليها بمقدار ما يهمّه إخلاصك القلبي. ونقرح عليك الصلاة التالية:"
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                android:layout_marginTop="10dp"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:text="هل لديك تساؤلات"
+                android:textColor="@color/primaryDarkColor"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                android:layout_marginTop="10dp"
+                android:text="اضغطي على ( اتصلي بنا )"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,185 @@
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fillViewport="true">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="vertical" >
+
+
+            <TextView
+                android:id="@+id/section_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+
+
+                android:text=" الصلاة"
+                android:textSize="14pt"
+                android:textColor="@color/secondaryTextColor"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_gravity="center"
+                />
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/m5"
+                android:layout_gravity="center"
+                android:scaleY="1.5"
+
+                />
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+                android:text="فكما إختارت مريم (أخت لعازر) النصيب الصالح (يسوع المسيح) الذي لن ينزع منها (لوقا ١٠ : ٤٣)، وكما آمنت المرأة النازفة دماً بأن خلاصها من المرض سيكون بالإيمان بيسوع المسيح (لوقا ٨ : ٤٣-٤٨)، هكذا نحن أيضاً يجب علينا أن نأتي إلى يسوع بالايمان فنخلص به من خطايانا. "
+
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+
+               />
+
+              <TextView
+                  android:layout_marginTop="10dp"
+                  android:layout_width="match_parent"
+                  android:layout_height="2dp"
+                  android:background="@color/primaryDarkColor"
+                  />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+                android:text="هل تعبر هذه الصلاة عن رغبة قلبِك ؟ إذا كانت الاجابة نعم، وتريدين أن تصليها أو تسألي عن كل ما قرأتي ."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="اضغطي على ( اتصلي بنا ) ."
+                android:layout_marginTop="15dp"
+                android:textSize="10pt"
+                android:textStyle="bold"
+                android:textColor="@color/primaryDarkColor"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/primaryDarkColor"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:text="يعد الكتاب المقدس أن كل من يقبل المسيح ينال الحياة الأبدية « وهذه هي الشهادة ان الله أعطانا حياة أبدية، وهذه الحياة هي في إبنه، من له الأبن فله الحيـاة ومن ليس له إبن الله فليست له الحياة كتبت هذا إليكم إنتم المؤمنون باسم إبن الله لكي تعلموا ان لكم حياة أبدية» (١ يوحنا ٥ : ١١-١٣)."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:text="بناءً على وعده هذا يمكنك الوثوق من أن المسيح الحي حالٌ فيِك وأن لكِ حياة أبدية منذ اللحظة التي دعوته للدخول إلى قلبك، فهو لا يخدعك."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:text="بالإضافة الى ذلك، ففي هذه اللحظة قد حدثت لك أمور كثيرة، مثل أن:"
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:text="- دخل المسيح الى قلبك (رؤيا ٣ : ٢٠)، (كولوسي ١ : ٢٧)"
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- غفرت لك خطاياك (كولوسي ٢ : ١٣)"
+                android:layout_marginTop="5dp"
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- صرت إبنة لله (يوحنا ١ : ١٢)"
+                android:layout_marginTop="5dp"
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="- وبدأت مغامرتك الكبرى التي خلقك الله لأجلها (يوحنا ١٠ : ١٠)، (٢كورنثوس ٥ : ١٧)."
+                android:layout_marginTop="5dp"
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+
+                android:text="أشكري الله دوماً لأن المسيح الحي
+حال في حياتك وان لك حياة أبدية. ولأنه
+قال: «لا أهملك ولا أتركك»
+(عبرانين ١٣ : ٥)"
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+
+</ScrollView>
+
+

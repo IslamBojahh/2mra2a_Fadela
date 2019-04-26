@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:gravity="end"
+    android:layoutDirection="rtl"
+    android:layout_gravity="end"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/menu1"
+            android:title="قد صرتِ عزيزة"
+            />
+        <item
+            android:id="@+id/nav_womanchris"
+            android:icon="@drawable/menu2"
+            android:title="المرأة في عهد المسيح "
+             />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/menu3"
+            android:title="مناسبات هامة"
+            />
+        <item
+            android:id="@+id/nav_for_you"
+            android:icon="@drawable/menu4"
+            android:title="من أجلكِ"
+
+
+            />
+
+        <item
+            android:id="@+id/written"
+            android:icon="@drawable/menu5"
+            android:title="خواطر كتابية "
+            />
+
+        <item
+            android:id="@+id/videos"
+            android:icon="@drawable/menu6"
+            android:title="فيديوهات "
+            />
+        <item
+            android:id="@+id/albums"
+            android:icon="@drawable/menu7"
+            android:title="البومات الصور"
+            />
+
+
+</group>
+
+    <item >
+        <menu>
+            <item
+                android:id="@+id/call_us"
+                android:icon="@drawable/ic_action_name"
+                 />
+            <item
+                android:id="@+id/about_us"
+                android:icon="@drawable/menu9"
+                 />
+        </menu>
+    </item>
+
+</menu>

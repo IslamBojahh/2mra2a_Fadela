@@ -1,0 +1,268 @@
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            >
+
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:layout_margin="5dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="@string/womanchrris1"
+                android:textColor="@color/primaryDarkColor"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:text="@string/womanchrris2"
+                android:textDirection="rtl"
+                android:textStyle="bold"
+                />
+
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="@string/womanchrris3"
+                android:textColor="@color/primaryDarkColor"
+
+                />
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/m6"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/womanchrris4"
+                android:textDirection="rtl"
+                android:textStyle="bold"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="@string/womanchrris5"
+                android:textColor="@color/primaryDarkColor"
+
+                />
+            <ImageView
+
+                android:layout_width="250dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:background="@drawable/silde2"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:text="@string/womanchrris6"
+                android:textDirection="rtl"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="@string/womanchrris7"
+                android:textColor="@color/primaryDarkColor"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:text="@string/womanchrris8"
+                android:textDirection="rtl"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="@string/womanchrris9"
+                android:textColor="@color/primaryDarkColor"
+
+                />
+
+            <ImageView
+
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/womanchris1"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="@string/womanchriss10"
+                android:textColor="@color/primaryDarkColor"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:text="@string/womanchris11"
+                android:textDirection="rtl"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="@string/womanchris12"
+                android:textColor="@color/primaryDarkColor"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:text="@string/womanchris13"
+                android:textDirection="rtl"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="@string/womanchris14"
+                android:textColor="@color/primaryDarkColor"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="30dp"
+                android:text="@string/womanchris15"
+                android:textDirection="rtl"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="@string/womanchriss16"
+                android:textColor="@color/primaryDarkColor"
+
+                />
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textDirection="rtl"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text="@string/womanchris17"
+                android:textColor="@color/primaryDarkColor"
+
+                />
+
+            <ImageView
+
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:background="@drawable/womanchris2"
+                android:layout_marginBottom="40dp"
+                />
+        </LinearLayout>
+
+    </ScrollView>

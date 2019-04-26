@@ -1,0 +1,201 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    >
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.woman.aya_orcas.tab.MainActivity$PlaceholderFragment">
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/section_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginEnd="@dimen/activity_horizontal_margin"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="إنّ يسوع المسيح هو علاج الله الوحيد
+لخطيّة الإنسان، وبواسطته وحده يمكنك
+أن تعرفي محبّة الله وخطّته لحياتك."
+                android:textSize="14pt"
+                android:textColor="@color/secondaryTextColor"
+                android:textAlignment="center"/>
+
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="1) فالمسيح عجيب في ولادته: كان للمرأة دور في تتميم خطة الله للبشريـه كلها، فكما وعد الله في تكوين ٣ : ٥ ، فأن نسل المرأه سيسحق رأس الحية (إبليس). فلم يكن للمسيح أب بشري. لأنّه حُبِلَ به بقوّة الروح القدس في أحشاء القديسة مريم العذراء. لذلك دعي ابن الله... « فقالت مريم للملاك: كيف يكون هذا وأنا لست أعــرف رجلاً؟ أجاب الملاك وقال لهــا: الروح القدس يحلّ عليك وقوّة العليّ تظلّلك. فلذلك أيضاً القدّوس المولود منك يدعى   "
+
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+               />
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/m3"
+                android:layout_gravity="center"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="2) حياته أظهرت مجد الله: ترعرع يسوع المسيح في الناصرة وكان خاضعاً للقديسين مريم ويوسف، رغم انه كان يعلم بأنه إبن الله. وجال يصنع خيراً ويشفي جميع المتسلط عليهم ابليس لأن الله كان معه (أعمال ١٠ : ٣٨) وكانت مريم المجدلية إحدى الذين حررهم يسوع من تسلط إبليس، فقد حررها من سبع شياطين واصبحت فيما بعد إحدى تلميذاته اللواتي تبعنه في خدمته (لوقا ٨ : ١-٣)."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tab3_1"
+                android:layout_gravity="center"
+
+                />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="3) عجيب في موته: وكما فدى الله ابن أبينا إبراهيم بكبش عجيب،عندما أوشك أن يضحّي به لله، هكذا إفتدى الله العالم كلّه بالكبش العظيم، يسوع المسيح، الذي مات عوضاً عنّا ليمحو خطايانا. أي أنّ المسيح بدافع محبّته قد حمل عقاب خطايانا. وشهد كثيرون على موته فوق الصليب، و « كانت هنالك ايضاً نساء ينظرن من بعيد بينهن مريم المجدلية ومريم ام يعقوب الصغير ويوسي، وسالومة اللواتي ايضاً تبعنه وخدمنه حين كان في الجليل وأخر كثيرات اللواتي صعدن معه الى أورشليم. » (مرقس ١٥ : ٤٠-٤١)
+« ولكن الله بن محبته لنا لانه و نحن بعد خطاة مات المسيح من أجلنا » (روميه ٥ : ٨)"
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tab3_2"
+                android:layout_gravity="center"
+
+                />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="4) عجيب في قيامته: لم يكن موت المسيح على الصليب هو النهاية، بل سحق نسل المرأة رأس الحية الذي هو إبليس، وقام يسوع في اليوم الثالث منتصراً على الموت. وكانت النساء اللواتي تبعنه أول من علم بخبر قيامته، اذ ظهــر لهن ملاكان حين ذهبا لتطييب جسد يسوع. بعدها ظهر يسوع شخصياً لمريم المجدليه فكانت هي أول من رأى الرب بعد القيامة وكلفها بتبليغ التلاميذ بخبر القيامة، بالرغم من أن شهادة المرأة لم تحسب اَنذاك (يوحنا ٢٠ : ١١-١٦)."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tab3_3"
+                android:layout_gravity="center"
+
+                />
+
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="لذلك فالمسيح هو الطريق الوحيد: «قال له يسوع : أنا هو الطريق والحقّ والحياة. ليس أحد يـأتي إلى الآب إلّا بي» (يوحنا ١٤ : ٦)."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tab3_4"
+                android:layout_gravity="center"
+
+                />
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="« لأنّه هكذا أحبّ الله العالم حتّى بذل ابنه الوحيــد لكي لايهلــك كلّ من يؤمن به بل تكون له الحياة الأبديّة » (يوحنا ٣: ١٦). لقد عبر الله الهوة التــي تفصلنا عنه، بأن أقام جسراً فوقها فأرسل يسوع المسيح ليموت على الصليب بدلاً عنا."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1"
+
+                android:text="ولكن لا يكفي ان تعرفي هذه الحقائق ثلاثه... أو أن تؤمني بها فقط.."
+                android:textSize="8pt"
+                android:textColor="@color/primaryDarkColor"
+                />
+        </LinearLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
+
